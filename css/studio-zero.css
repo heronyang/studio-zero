@@ -33,3 +33,6 @@ footer {
 h4.manager {
     text-decoration: underline;
 }
+hr {
+    margin: 50px 0;
+}
