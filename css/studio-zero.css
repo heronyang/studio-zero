@@ -1,11 +1,74 @@
+/* Global */
 html, body {
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
-.center-btn{ 
-    color: #0F0F0F;
+h2 {
+    font-size: medium;
+}
+h5 {
+    color: #A0A0A0;
+}
+hr {
+    margin: 50px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.298039);
+}
+div.row {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: small;
+}
+footer {
+    margin: 5px;
 }
 .btn-circle {
     border: 0px solid #0F0F0F;
+}
+
+/* Section */
+#about-body img{
+    outline: 0; max-width: 100%; height: auto;
+    margin: 30px 0px 30px 0px;
+}
+
+
+.intro {
+    background-image: none;
+}
+
+p#intro-text {
+    font-size: medium;
+}
+
+#intro-source {
+    font-size: small;
+    color: #aaa;
+}
+
+#about-body {
+    font-size: small;
+}
+#about {
+    padding-bottom: 200px;
+}
+
+#photo {
+    height: 600px;
+    background-color: #202020;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-image: url('../img/intro-bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Member */
+#member {
+    padding: 0px;
+    margin-top: 30px;
 }
 .member-section {
     background-color: #202020;
@@ -20,22 +83,30 @@ html, body {
     -webkit-box-sizing:border-box;
     border:3px solid #404040;
 }
-h5 {
-    color: #A0A0A0;
-}
-footer {
-    margin: 50px;
-}
 .member-section a {
     font-size: 2em;
     margin: 20px;
 }
-h4.manager {
+.manager {
     text-decoration: underline;
 }
-hr {
-    margin: 50px 0;
+
+/* Responsive CSS Code */
+@media(max-width:767px){
+    .intro-body {
+        padding: 120px 0px 120px 0px;
+    }
+    #about-body img{
+        width: 80%;
+        max-width: 300px;
+    }
+    #photo {
+        height: 200px;
+    }
 }
-#about-body img{
-    outline: 0; max-width: 100%; height: auto;
+@media(min-width:768px){
+}
+@media(min-width:992px){
+}
+@media(min-width:1200px){
 }

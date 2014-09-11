@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.">
     <meta name="author" content="Studio Zero">
 
     <title>Studio Zero</title>
@@ -86,8 +86,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <p class="intro-text">台灣多所大學學生組成的團隊</p>
-                        <a href="#about" class="btn btn-circle page-scroll center-btn">
+                        <p id="intro-text">Simplicity is the ultimate sophistication.</p>
+                        <p id="intro-source">-- Leonardo da Vinci</p>
+                        <a href="#photo" class="btn btn-circle page-scroll center-btn">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -96,16 +97,21 @@
         </div>
     </header>
 
+    <!-- Full Width Photo Section -->
+    <section id="photo" class="container contect-section">
+    </section>
+
+
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div id="about-body"  class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About</h2>
-                <img src="img/logo.png" width="500" height="200" alt="logo image"/>
+                <img src="img/logo.png" width="300" height="120" alt="logo image"/>
                 <hr />
-                <p>Yes, it's so hard to keep our thinking clean and simple.</p>
-                <p>We should never forget our initial intention.<br />
-                So, our designs will always meet human needs.</p>
+                <p>Yes,<br/>it's so hard to keep our thinking clean and simple.</p>
+                <p>Never forget our initial intention.<br />
+                And, always meet human needs.</p>
             </div>
         </div>
     </section>
@@ -196,10 +202,21 @@
     <script src="js/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!--Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-54567655-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </body>
 
