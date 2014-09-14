@@ -103,6 +103,9 @@ p#intro-text {
     #photo {
         height: 200px;
     }
+    .member-section a {
+        margin: 10px;
+    }
 }
 @media(min-width:768px){
 }
